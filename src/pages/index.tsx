@@ -1,12 +1,20 @@
 import fs from "fs";
+import matter from "gray-matter";
 import { GetStaticProps } from "next";
 import Head from "next/Head";
 import Link from "next/link";
 import path from "path";
 import React from "react";
 
+interface ContentMetaData {
+  title: string;
+  description: string;
+  tags: string[];
+}
+
 interface Props {
   files: string[];
+  contentMetaDataArr: ContentMetaData[];
 }
 
 const IndexPage: React.FC<Props> = (props: Props) => {
@@ -23,14 +31,19 @@ const IndexPage: React.FC<Props> = (props: Props) => {
         {props.files.map((file, idx) => {
           const href = `${file.replace(".md", "")}`;
           const coverUrl = `/${file.replace(".md", "")}/cover.png`;
-          const topicName = href.split("_").join(" ");
 
           return (
             <div key={idx}>
               <Link href={href}>
                 <div>
                   <img src={coverUrl} />
-                  <div>{topicName}</div>
+                  <div>{props.contentMetaDataArr[idx].title}</div>
+                  <div>{props.contentMetaDataArr[idx].description}</div>
+                  <div>
+                    {props.contentMetaDataArr[idx].tags.map((tag, i) => (
+                      <span key={i}>#{tag} </span>
+                    ))}
+                  </div>
                 </div>
               </Link>
             </div>
@@ -46,10 +59,28 @@ export const getStaticProps: GetStaticProps = async (): Promise<{
 }> => {
   const contentsDirPath = path.join("src", "contents");
   const files = fs.readdirSync(contentsDirPath);
+  let contentMetaDataArr: ContentMetaData[] = [];
+
+  files.forEach((file) => {
+    const markdownWithMetaData = fs
+      .readFileSync(path.join("src", "contents", file)) // file will have .md
+      .toString();
+
+    const parsedMarkdown = matter(markdownWithMetaData);
+    const title = parsedMarkdown.data.title;
+    const description = parsedMarkdown.data.description;
+    const tags = parsedMarkdown.data.tags;
+
+    contentMetaDataArr.push({ title, description, tags });
+  });
+
+  // Order of file name in files arr and contentMetaDataArr will be same
+  // So metadata will be of the right file when the index is same
 
   return {
     props: {
       files: files,
+      contentMetaDataArr,
     },
   };
 };
