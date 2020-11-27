@@ -1,6 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import marked from "marked";
+import Head from "next/Head";
 import path from "path";
 import React from "react";
 
@@ -9,11 +10,29 @@ interface Props {
   data: {
     [key: string]: any;
   };
+  title: string;
+  description: string;
+  tags: string[];
 }
 
-const Content: React.FC<Props> = ({ htmlString }: Props) => {
+const Content: React.FC<Props> = ({
+  htmlString,
+  title,
+  description,
+  tags,
+}: Props) => {
   return (
     <div>
+      <Head>
+        <title>{title}</title>
+      </Head>
+      <h1>{title}</h1>
+      <p>{description}</p>
+      <div>
+        {tags.map((tag, idx) => (
+          <span key={idx}>#{tag} </span>
+        ))}
+      </div>
       <div dangerouslySetInnerHTML={{ __html: htmlString }} />
     </div>
   );
@@ -46,12 +65,18 @@ export const getStaticProps = ({ params }: Params) => {
     .toString();
 
   const parsedMarkdown = matter(markdownWithMetaData);
+  const title = parsedMarkdown.data.title;
+  const description = parsedMarkdown.data.description;
+  const tags = parsedMarkdown.data.tags;
   const htmlString = marked(parsedMarkdown.content);
 
   return {
     props: {
       htmlString,
       data: parsedMarkdown.data,
+      title,
+      description,
+      tags,
     },
   };
 };
