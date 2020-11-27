@@ -1,4 +1,12 @@
-# Debits And Credits
+---
+title: Debits And Credits
+description: Understanding what are debits and credits and its effects on the balance sheet equation
+tags:
+  - accounting
+  - balance-sheet
+  - debits
+  - credits
+---
 
 ## Misconceptions
 

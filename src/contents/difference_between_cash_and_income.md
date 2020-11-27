@@ -1,4 +1,11 @@
-# Difference Between Cash And Income
+---
+title: Difference Between Cash And Income
+description: Understanding the difference between cash and income
+tags:
+  - accounting
+  - cash-flow-statement
+  - income-statement
+---
 
 The difference between cash and income is very important to understand the difference between `cash flow statement` and `income statement`.
 

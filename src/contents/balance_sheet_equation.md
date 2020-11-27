@@ -1,4 +1,10 @@
-# Balance Sheet Equation
+---
+title: Balance Sheet Equation
+description: Understanding what is the balance sheet equation
+tags:
+  - accounting
+  - balance-sheet
+---
 
 There are 3 main financial statements **balance sheet**, **income statement** and **cash flow statement**.
 
