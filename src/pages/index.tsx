@@ -1,5 +1,6 @@
 import fs from "fs";
 import { GetStaticProps } from "next";
+import Head from "next/Head";
 import Link from "next/link";
 import path from "path";
 import React from "react";
@@ -11,6 +12,11 @@ interface Props {
 const IndexPage: React.FC<Props> = (props: Props) => {
   return (
     <div>
+      <Head>
+        <title>Mone</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       <h1>Mone</h1>
 
       <div>
