@@ -7,9 +7,6 @@ import React from "react";
 
 interface Props {
   htmlString: string;
-  data: {
-    [key: string]: any;
-  };
   title: string;
   description: string;
   tags: string[];
@@ -81,12 +78,9 @@ export const getStaticProps = ({ params }: Params) => {
   const publishdate = new Date(parsedMarkdown.data.publishdate).toISOString();
   const htmlString = marked(parsedMarkdown.content);
 
-  const data = parsedMarkdown.data;
-
   return {
     props: {
       htmlString,
-      data: data,
       title,
       description,
       tags,
