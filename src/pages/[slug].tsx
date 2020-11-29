@@ -13,6 +13,8 @@ interface Props {
   title: string;
   description: string;
   tags: string[];
+  lastmod: string;
+  publishdate: string;
 }
 
 const Content: React.FC<Props> = ({
@@ -20,6 +22,8 @@ const Content: React.FC<Props> = ({
   title,
   description,
   tags,
+  lastmod,
+  publishdate,
 }: Props) => {
   return (
     <div>
@@ -28,6 +32,11 @@ const Content: React.FC<Props> = ({
       </Head>
       <h1>{title}</h1>
       <p>{description}</p>
+      <div>
+        Created at {publishdate}
+        <br />
+        Last updated at {lastmod}
+      </div>
       <div>
         {tags.map((tag, idx) => (
           <span key={idx}>#{tag} </span>
@@ -68,15 +77,21 @@ export const getStaticProps = ({ params }: Params) => {
   const title = parsedMarkdown.data.title;
   const description = parsedMarkdown.data.description;
   const tags = parsedMarkdown.data.tags;
+  const lastmod = new Date(parsedMarkdown.data.lastmod).toISOString();
+  const publishdate = new Date(parsedMarkdown.data.publishdate).toISOString();
   const htmlString = marked(parsedMarkdown.content);
+
+  const data = parsedMarkdown.data;
 
   return {
     props: {
       htmlString,
-      data: parsedMarkdown.data,
+      data: data,
       title,
       description,
       tags,
+      lastmod,
+      publishdate,
     },
   };
 };
