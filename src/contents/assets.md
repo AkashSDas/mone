@@ -5,8 +5,8 @@ tags:
   - accounting
   - balance sheet
   - assets
-lastmod: 2020-11-29T09:03:06
-publishdate: 2020-11-29T09:03:06
+lastmod: 2020-11-29T09:03:06-05:00
+publishdate: 2020-11-29T09:03:06-05:00
 ---
 
 ## What is an asset?

@@ -6,8 +6,8 @@ tags:
   - balance-sheet
   - debits
   - credits
-lastmod: 2020-11-28T12:01:06
-publishdate: 2020-11-28T12:01:06
+lastmod: 2020-11-28T12:01:06-05:00
+publishdate: 2020-11-28T12:01:06-05:00
 ---
 
 ## Misconceptions

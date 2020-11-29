@@ -4,8 +4,8 @@ description: Understanding what is the balance sheet equation
 tags:
   - accounting
   - balance-sheet
-lastmod: 2020-11-28T09:03:06
-publishdate: 2020-11-28T09:03:06
+lastmod: 2020-11-28T09:03:06-05:00
+publishdate: 2020-11-28T09:03:06-05:00
 ---
 
 There are 3 main financial statements **balance sheet**, **income statement** and **cash flow statement**.

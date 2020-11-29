@@ -5,8 +5,8 @@ tags:
   - accounting
   - balance-sheet
   - equity
-lastmod: 2020-11-29T15:43:06
-publishdate: 2020-11-29T15:43:06
+lastmod: 2020-11-29T15:43:06-05:00
+publishdate: 2020-11-29T15:43:06-05:00
 ---
 
 ## What is an equtiy?
