@@ -1,6 +1,6 @@
 ---
 title: Assets
-descritption: Understanding what is an asset and what are its types?
+description: Understanding what is an asset and what are its types?
 tags:
   - accounting
   - balance sheet
