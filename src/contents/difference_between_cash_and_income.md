@@ -5,6 +5,8 @@ tags:
   - accounting
   - cash-flow-statement
   - income-statement
+lastmod: 2020-11-28T13:13:03
+publishdate: 2020-11-28T13:13:03
 ---
 
 The difference between cash and income is very important to understand the difference between `cash flow statement` and `income statement`.
