@@ -5,7 +5,7 @@ tags:
   - accounting
   - balance-sheet
   - equity
-lastmod: 2020-11-30T12:29:06-05:00
+lastmod: 2020-11-30T15:43:06-05:00
 publishdate: 2020-11-29T15:43:06-05:00
 ---
 

@@ -6,7 +6,7 @@ tags:
   - balance-sheet
   - liabilites
 lastmod: 2020-11-29T13:03:06-05:00
-publishdate: 2020-11-29T14:03:06-05:00
+publishdate: 2020-11-29T13:03:06-05:00
 ---
 
 ## What is an liability?
