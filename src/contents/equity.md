@@ -43,10 +43,10 @@ Dividends are distributions of retained earnings to shareholders.
 
 Equity is a tricky one not because of its concepts but the different words used to describe the same thing.
 
-![](./images/accounting/equity/img1.png)
+![](/equity/img1.png)
 
 ## Link between balance sheet and income statement
 
 When you keep on expanding the equity term in the accounting equation you will see that the 2 of the business's major financial statements i.e. the `income statement` and the `balance sheet` are linked together by `equity`.
 
-![Link between balance sheet and income statement](./images/accounting/equity/img2.png)
+![Link between balance sheet and income statement](/equity/img2.png)
