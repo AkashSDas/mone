@@ -1,3 +1,13 @@
+---
+title: EBITDA
+description: Understanding fundamental meaning EBITDA
+tags:
+  - accounting
+  - ebitda
+lastmod: 2020-12-05T23:15:06
+publishdate: 2020-12-05T23:15:06
+---
+
 ## EBITDA (earnings before interest, taxes, depreciation and amortization) is often used as a proxy for cash flow that excludes interest and taxes
 
 However EBITDA does not measure cash flow well if there are large changes in working capital and suffers from the same manipulation potential as net income
