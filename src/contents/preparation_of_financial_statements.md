@@ -70,7 +70,7 @@ Liabilities and Equity are listed next in the following order
 
 ## The Accounting Cycle
 
-![](/perparation_of_financial_statement/img1.png)
+![](/preparation_of_financial_statements/img1.png)
 
 ## Close Temporary Accounts
 
