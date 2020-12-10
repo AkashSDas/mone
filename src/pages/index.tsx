@@ -1,7 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import { GetStaticProps } from "next";
-import Head from "next/Head";
+import Head from "next/head";
 import Link from "next/link";
 import path from "path";
 import React from "react";
