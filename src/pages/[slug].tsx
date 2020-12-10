@@ -20,8 +20,6 @@ const Content: React.FC<Props> = ({
   title,
   description,
   tags,
-  lastmod,
-  publishdate,
 }: Props) => {
   const colors = [
     "#fa8142",
