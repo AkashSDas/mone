@@ -66,6 +66,12 @@
   }
 }
 
+@media only screen and (max-width: 1028px) {
+  .home .content-grid img {
+    height: 30rem;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .home {
     .brand-info {
@@ -91,7 +97,7 @@
       grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
 
       img {
-        height: 15rem;
+        height: 20rem;
         width: 100%;
         object-fit: fill;
         border-radius: 10px;
