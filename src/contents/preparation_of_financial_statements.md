@@ -25,16 +25,16 @@ The **second step** is to prepare an income statement and then use income to upa
 ```
     Revenue (or Sales)
   - Cost of Goods Sold
-  ---------------------------------
+  --------------------------
     Gross Profit (Top line)
   - Operating (SG&A) Expense
-  ---------------------------------
+  --------------------------
     Operating Income (EBIT/EBITDA)
   - Interest, Gains and Losses
-  ---------------------------------
+  --------------------------
     Pre-tax Income
   - Income Tax Expense
-  ---------------------------------
+  --------------------------
     Net Income (Bottom line)
 ```
 
