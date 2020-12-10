@@ -27,19 +27,22 @@ const Content: React.FC<Props> = ({
       <Head>
         <title>{title}</title>
       </Head>
-      <h1>{title}</h1>
-      <p>{description}</p>
-      <div>
-        Created at {publishdate}
-        <br />
-        Last updated at {lastmod}
-      </div>
-      <div>
-        {tags.map((tag, idx) => (
-          <span key={idx}>#{tag} </span>
-        ))}
-      </div>
-      <div dangerouslySetInnerHTML={{ __html: htmlString }} />
+
+      <main>
+        <h1>{title}</h1>
+        <p>{description}</p>
+        <div>
+          Created at {publishdate}
+          <br />
+          Last updated at {lastmod}
+        </div>
+        <div>
+          {tags.map((tag, idx) => (
+            <span key={idx}>#{tag} </span>
+          ))}
+        </div>
+        <div dangerouslySetInnerHTML={{ __html: htmlString }} />
+      </main>
     </div>
   );
 };

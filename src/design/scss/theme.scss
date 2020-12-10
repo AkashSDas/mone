@@ -1,0 +1,130 @@
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// colors
+$colors: (
+  orange: #fa8142,
+  green: #09c372,
+  blue: #498afb,
+  dark-blue: #0075ff,
+  pink: #ff4088,
+  red: hsl(348, 100%, 61%),
+  purple: hsl(265, 50%, 60%),
+  dark-purple: #7000ff,
+  yellow: hsl(48, 100%, 67%),
+);
+
+// default theme(dark theme)
+@mixin default-theme {
+  --background: var(--gray6);
+  --text-color: var(--gray2);
+  --h-color: white;
+  --code-bg: #22262f; // #1d2327;
+  --card-bg: var(--gray5);
+  --card-radius: 0.25em;
+  --card-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.dark-theme {
+  @include default-theme;
+}
+
+:root {
+  @each $name, $color in $colors {
+    --#{$name}: #{$color};
+    --#{$name}-dark: #{darken($color, 7%)};
+    --#{$name}-light: #{lighten($color, 7%)};
+  }
+
+  --gray0: #f8f8f8;
+  --gray1: #dbe1e8;
+  --gray2: #b2becd;
+  --gray3: #6c7983;
+  --gray4: #454e56;
+  --gray5: #2a2e35;
+  --gray6: #12181b;
+
+  --font-size: 20px;
+  --font-head: "Open Sans", sans-serif;
+  --font-body: "Nunito", sans-serif;
+  --font-brand: "Monoton", sans-serif;
+  --font-code: "Open Sans", monospace;
+
+  @include default-theme;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--font-size);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--h-color);
+  font-family: var(--font-head);
+  font-weight: 900;
+  font-style: normal;
+}
+
+.brand {
+  font-family: var(--font-brand);
+  color: var(--green);
+  font-size: 6rem;
+}
+
+main {
+  padding: 1em;
+  flex: 1;
+  transition: margin 0.3s ease;
+}
+
+pre {
+  color: var(--purple);
+  background: var(--card-bg);
+  padding: 1rem;
+  border-radius: var(--card-radius);
+}
+
+code {
+  background: var(--code-bg);
+  color: var(--purple);
+  padding: 0 0.4em;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.8;
+}
+
+em {
+  color: var(--h-color);
+}
+
+li {
+  padding: 0.25em 0;
+}
+
+blockquote {
+  position: relative;
+  padding-left: 1em;
+  border-left: var(--card-bg) 3px dashed;
+  font-size: 1.2em;
+  font-weight: 300;
+}
