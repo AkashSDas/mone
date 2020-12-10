@@ -2,6 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import marked from "marked";
 import Head from "next/Head";
+import Link from "next/link";
 import path from "path";
 import React from "react";
 
@@ -22,26 +23,55 @@ const Content: React.FC<Props> = ({
   lastmod,
   publishdate,
 }: Props) => {
+  const colors = [
+    "#fa8142",
+    "#09c372",
+    "#498afb",
+    "#ff4088",
+    "hsl(265, 50%, 60%)",
+    "hsl(48, 100%, 67%)",
+    " #7000ff",
+  ];
+
   return (
     <div>
       <Head>
         <title>{title}</title>
       </Head>
 
-      <main>
-        <h1>{title}</h1>
-        <p>{description}</p>
+      <main className="content">
         <div>
+          <Link href="/">
+            <a className="go-back">Go Back</a>
+          </Link>
+        </div>
+        <h1 className="title">{title}</h1>
+        <hr />
+        <p className="description">{description}</p>
+        {/* <div>
           Created at {publishdate}
           <br />
           Last updated at {lastmod}
-        </div>
-        <div>
+        </div> */}
+        <div className="tag-grp">
           {tags.map((tag, idx) => (
-            <span key={idx}>#{tag} </span>
+            <span
+              key={idx}
+              className="tag"
+              style={{
+                backgroundColor:
+                  colors[Math.floor(Math.random() * colors.length)],
+                color: "black",
+              }}
+            >
+              #{tag}{" "}
+            </span>
           ))}
         </div>
-        <div dangerouslySetInnerHTML={{ __html: htmlString }} />
+        <div
+          className="content-article"
+          dangerouslySetInnerHTML={{ __html: htmlString }}
+        />
       </main>
     </div>
   );
