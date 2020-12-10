@@ -55,6 +55,19 @@
           padding: 1rem;
         }
       }
+
+      .read-more-btn {
+        margin-bottom: 1.6rem;
+        padding: 0.6rem;
+        width: 92%;
+        background: var(--green);
+        filter: brightness(1.2);
+        font-family: var(--font-head);
+        font-style: italic;
+        font-size: 1.2rem;
+        border-radius: 4px;
+        border: none;
+      }
     }
 
     img {

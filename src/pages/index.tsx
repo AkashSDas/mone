@@ -64,6 +64,8 @@ const IndexPage: React.FC<Props> = (props: Props) => {
                       ))}
                     </div> */}
                     </div>
+
+                    <button className="read-more-btn">READ MORE</button>
                   </div>
                 </Link>
               </div>
