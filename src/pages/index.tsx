@@ -25,25 +25,44 @@ const IndexPage: React.FC<Props> = (props: Props) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <main>
-        <h1 className="brand">Mone</h1>
+      <main className="home">
+        <div className="brand-info">
+          <h1 className="brand">Mone</h1>
 
-        <div>
+          <div className="brand-tag">
+            <h2 className="tag-line-head">SURVIVAL OF THE FITTEST</h2>
+            <div className="tag-line-content">
+              Mone is platform for practical resources needed to understand the
+              world of finance and business
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div className="content-grid">
           {props.files.map((file, idx) => {
             const href = `${file.replace(".md", "")}`;
             const coverUrl = `/${file.replace(".md", "")}/cover.png`;
 
             return (
-              <div key={idx}>
+              <div key={idx} className="content-card">
                 <Link href={href}>
                   <div>
                     <img src={coverUrl} />
-                    <div>{props.contentMetaDataArr[idx].title}</div>
-                    <div>{props.contentMetaDataArr[idx].description}</div>
-                    <div>
+
+                    <div className="content">
+                      <div className="heading">
+                        {props.contentMetaDataArr[idx].title}
+                      </div>
+                      <div className="description">
+                        {props.contentMetaDataArr[idx].description}
+                      </div>
+                      {/* <div>
                       {props.contentMetaDataArr[idx].tags.map((tag, i) => (
                         <span key={i}>#{tag} </span>
                       ))}
+                    </div> */}
                     </div>
                   </div>
                 </Link>

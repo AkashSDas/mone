@@ -26,6 +26,7 @@ $colors: (
   --code-bg: #22262f; // #1d2327;
   --card-bg: var(--gray5);
   --card-radius: 0.25em;
+  --h-border: 2px dashed var(--card-bg);
   --card-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
 }
@@ -81,12 +82,6 @@ h6 {
   font-style: normal;
 }
 
-.brand {
-  font-family: var(--font-brand);
-  color: var(--green);
-  font-size: 6rem;
-}
-
 main {
   padding: 1em;
   flex: 1;
@@ -98,6 +93,11 @@ pre {
   background: var(--card-bg);
   padding: 1rem;
   border-radius: var(--card-radius);
+}
+
+hr {
+  border: none;
+  border-bottom: var(--h-border);
 }
 
 code {
