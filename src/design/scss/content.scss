@@ -17,9 +17,10 @@
   }
 
   .tag-grp .tag {
-    border-radius: 4px;
-    padding: 0.4rem;
+    border-radius: 3px;
+    padding: 0.3rem;
     margin: 1rem 0.6rem;
+    font-size: 1rem;
   }
 
   .content-article {
@@ -73,7 +74,7 @@
   }
 }
 
-.content {
+.post {
   .content-article {
     margin: 2rem 0rem;
 
@@ -85,7 +86,10 @@
   .tag-grp {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: start;
+    align-items: stretch;
+    margin: 1rem 0rem;
 
     .tag {
       margin: 0.3rem;
@@ -101,7 +105,7 @@
 
 @media only screen and (max-width: 600px) {
   .post {
-    margin: auto 0rem;
+    margin: auto 1rem;
   }
 
   .post .content-article img:hover {

@@ -54,7 +54,7 @@ $colors: (
   --font-head: "Open Sans", sans-serif;
   --font-body: "Nunito", sans-serif;
   --font-brand: "Monoton", sans-serif;
-  --font-code: "Open Sans", monospace;
+  --font-code: "Source Code Pro Mono", monospace;
 
   @include default-theme;
 }
@@ -100,22 +100,37 @@ hr {
   border-bottom: var(--h-border);
 }
 
-pre {
-  white-space: pre-wrap; /* Since CSS 2.1 */
-  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-  white-space: -pre-wrap; /* Opera 4-6 */
-  white-space: -o-pre-wrap; /* Opera 7 */
-  word-wrap: break-word; /* Internet Explorer 5.5+ */
-}
-
 code {
-  // background: var(--code-bg);
+  background: var(--code-bg);
   color: var(--purple);
   padding: 0 0.4em;
   border-radius: 3px;
   font-size: 0.85em;
   font-weight: 700;
   box-shadow: var(--card-shadow);
+  font-family: var(--font-code);
+}
+
+pre {
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  box-shadow: var(--card-shadow);
+  transition: all 300ms ease-in-out;
+  border-radius: 3px;
+  font-family: var(--font-code);
+
+  code {
+    background-color: var(--card-bg);
+    box-shadow: none;
+    font-family: var(--font-code);
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+  }
 }
 
 p {
