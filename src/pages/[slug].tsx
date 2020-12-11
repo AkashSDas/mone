@@ -37,7 +37,7 @@ const Content: React.FC<Props> = ({
         <title>{title}</title>
       </Head>
 
-      <main className="content">
+      <main className="post">
         <div>
           <Link href="/">
             <a className="go-back">Go Back</a>

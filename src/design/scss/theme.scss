@@ -145,3 +145,14 @@ button {
 button:hover {
   transform: translateY(-3px);
 }
+
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 0rem;
+  }
+}
+
+::selection {
+  background-color: var(--green);
+  color: white;
+}

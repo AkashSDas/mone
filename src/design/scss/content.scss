@@ -6,7 +6,9 @@
   font-weight: bolder;
 }
 
-.content {
+.post {
+  margin: auto 18rem;
+
   .title,
   .description,
   .tag-grp {
@@ -91,8 +93,18 @@
   }
 }
 
+@media only screen and (max-width: 1300px) {
+  .post {
+    margin: auto 6rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
-  .content .content-article img:hover {
+  .post {
+    margin: auto 0rem;
+  }
+
+  .post .content-article img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
