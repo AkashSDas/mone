@@ -6,18 +6,24 @@ import Link from "next/link";
 import path from "path";
 import React from "react";
 
-interface ContentMetaData {
+interface File {
+  file: string;
   title: string;
   description: string;
   tags: string[];
+  lastmod: Date;
 }
 
 interface Props {
-  files: string[];
-  contentMetaDataArr: ContentMetaData[];
+  files: File[];
 }
 
 const IndexPage: React.FC<Props> = (props: Props) => {
+  // sorting the files array as per last modified date
+  props.files.sort((a, b): number => {
+    return new Date(a.lastmod) < new Date(b.lastmod) ? 0 : -1;
+  });
+
   return (
     <div>
       <Head>
@@ -42,8 +48,8 @@ const IndexPage: React.FC<Props> = (props: Props) => {
 
         <div className="content-grid">
           {props.files.map((file, idx) => {
-            const href = `${file.replace(".md", "")}`;
-            const coverUrl = `/${file.replace(".md", "")}/cover.png`;
+            const href = `${file.file.replace(".md", "")}`;
+            const coverUrl = `/${file.file.replace(".md", "")}/cover.png`;
 
             return (
               <div key={idx} className="content-card">
@@ -52,12 +58,8 @@ const IndexPage: React.FC<Props> = (props: Props) => {
                     <img src={coverUrl} />
 
                     <div className="content">
-                      <div className="heading">
-                        {props.contentMetaDataArr[idx].title}
-                      </div>
-                      <div className="description">
-                        {props.contentMetaDataArr[idx].description}
-                      </div>
+                      <div className="heading">{file.title}</div>
+                      <div className="description">{file.description}</div>
                       {/* <div>
                       {props.contentMetaDataArr[idx].tags.map((tag, i) => (
                         <span key={i}>#{tag} </span>
@@ -82,7 +84,7 @@ export const getStaticProps: GetStaticProps = async (): Promise<{
 }> => {
   const contentsDirPath = path.join("src", "contents");
   const files = fs.readdirSync(contentsDirPath);
-  let contentMetaDataArr: ContentMetaData[] = [];
+  let returnValue: File[] = [];
 
   files.forEach((file) => {
     const markdownWithMetaData = fs
@@ -93,8 +95,9 @@ export const getStaticProps: GetStaticProps = async (): Promise<{
     const title = parsedMarkdown.data.title;
     const description = parsedMarkdown.data.description;
     const tags = parsedMarkdown.data.tags;
+    const lastmod = parsedMarkdown.data.lastmod.toString();
 
-    contentMetaDataArr.push({ title, description, tags });
+    returnValue.push({ file, title, description, tags, lastmod });
   });
 
   // Order of file name in files arr and contentMetaDataArr will be same
@@ -102,8 +105,7 @@ export const getStaticProps: GetStaticProps = async (): Promise<{
 
   return {
     props: {
-      files: files,
-      contentMetaDataArr,
+      files: returnValue,
     },
   };
 };
