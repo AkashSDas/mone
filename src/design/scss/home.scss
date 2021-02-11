@@ -85,9 +85,14 @@
   }
 }
 
-@media only screen and (max-width: 1028px) {
+@media only screen and (max-width: 1440px) {
+  .home .content-grid {
+    margin: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
+
   .home .content-grid img {
-    height: 30rem;
+    height: 18rem;
   }
 }
 

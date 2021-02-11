@@ -35,6 +35,17 @@ $colors: (
   @include default-theme;
 }
 
+@mixin light-theme {
+  --background: var(--gray0);
+  --text-color: var(--gray6);
+  --h-color: var(--gray6);
+  --code-bg: var(--gray1);
+  --card-bg: var(--gray0);
+  --h-border: 2px dashed var(--gray-6);
+  --card-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
 :root {
   @each $name, $color in $colors {
     --#{$name}: #{$color};
@@ -56,7 +67,8 @@ $colors: (
   --font-brand: "Monoton", sans-serif;
   --font-code: "Source Code Pro Mono", monospace;
 
-  @include default-theme;
+  // @include default-theme;
+  @include light-theme;
 }
 
 body {
