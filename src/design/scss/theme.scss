@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
 *,
 html {
   box-sizing: border-box;
@@ -62,13 +64,13 @@ $colors: (
   --gray6: #12181b;
 
   --font-size: 20px;
-  --font-head: "Open Sans", sans-serif;
-  --font-body: "Nunito", sans-serif;
+  --font-head: "Fira Code", monospace; //"Open Sans", sans-serif;
+  --font-body: "Fira Code", monospace; //"Nunito", sans-serif;
   --font-brand: "Monoton", sans-serif;
-  --font-code: "Source Code Pro Mono", monospace;
+  --font-code: "Fira Code", monospace; //"Source Code Pro Mono", monospace;
 
-  // @include default-theme;
-  @include light-theme;
+  @include default-theme;
+  // @include light-theme;
 }
 
 body {
