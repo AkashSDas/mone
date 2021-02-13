@@ -10,11 +10,13 @@ lastmod: 2020-12-09T21:20:06
 publishdate: 2020-12-09T23:20:06
 ---
 
-## What is a stock?
+---
 
-A stock/equity is a security that represents the ownership of a fraction of a corporation. This entitles the owner of the stock to a proportion of the corporation's `assets and profits` equal to how much stock they own. Units of stock are called `shares`
+A stock/equity is a security that represents the ownership of a fraction of a corporation. This entitles the owner of the stock to a proportion of the corporation's `assets and profits` equal to how much stock they own. Units of stock are called `shares`.
 
-Stocks are bought and sold predominantly on stock exchanges, though there can be private sales as well and they are the foundation of nearly every portfolio. These transactions have to conform to government regulations which are meant to protect investors from fraudulent practices. Historically, they have outperformed most other investments over the long run.
+Stocks are bought and sold predominantly on `stock exchanges`, though there can be private sales as well and they are the foundation of nearly every portfolio. These transactions have to conform to government regulations which are meant to protect investors from fraudulent practices. Historically, they have outperformed most other investments over the long run.
+
+---
 
 ## Understanding Stocks
 
@@ -25,6 +27,8 @@ Ownership is determined by the number of shares a person owns relative to the nu
 Stock holders do not own corporations, they own shares issued by corporations. But corporations are a special type of organization because the law treats them as legal persons. In other words, corporations file taxes, can borrow, can own property, can be sued, etc. The idea that a corporation is a “person” means that the corporation owns its own assets. A corporate office full of chairs and tables belongs to the corporation, and not to the shareholders.
 
 This distinction is important because corporate property is legally separated from the property of shareholders, which limits the liability of both the corporation and the shareholder. If the corporation goes bankrupt, a judge may order all of its assets sold – but your personal assets are not at risk. The court cannot even force you to sell your shares, although the value of your shares will have fallen drastically. Likewise, if a major shareholder goes bankrupt, she cannot sell the company’s assets to pay off her creditors.
+
+---
 
 ## Stockholders and Equity Ownership
 
@@ -38,6 +42,8 @@ If you own a majority of shares, your voting power increases so that you can ind
 
 `The more shares you own, the larger the portion of the profits you get`. Many stocks, however, do not pay out dividends, and instead reinvest profits back into growing the company. These retained earnings, however, are still reflected in the value of a stock.
 
+---
+
 ## Common vs. Preferred Stock
 
 There are two main types of stock: `common` and `preferred`.
@@ -47,6 +53,8 @@ There are two main types of stock: `common` and `preferred`.
 Owners of preferred stock receive dividends before common shareholders and have priority in the event that a company goes bankrupt and is liquidated.
 
 Companies can issue new shares whenever there is a need to raise additional cash. This process dilutes the ownership and rights of existing shareholders (provided they do not buy any of the new offerings). Corporations can also engage in stock buy-backs which would benefit existing shareholders as it would cause their shares to appreciate in value.
+
+---
 
 ## Stocks vs Bonds
 

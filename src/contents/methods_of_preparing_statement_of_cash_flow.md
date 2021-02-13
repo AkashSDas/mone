@@ -8,19 +8,25 @@ lastmod: 2020-12-04T14:02:06
 publishdate: 2020-12-04T14:02:06
 ---
 
-## Direct Method
+---
 
-- List cash receipts and disbursements by source/use of funds
-- Always used for investing and financing activities
-- Rarely used for operating activities
+> **Direct Method**
+>
+> - List cash receipts and disbursements by source/use of funds.
+> - Always used for investing and financing activities.
+> - Rarely used for operating activities.
 
-## Indirect Method
+> **Indirect Method**
+>
+> - Only used for operating activities.
+> - Goal is to reconcile net income with cash from operations by removing non cash items from net income and including additional cash flows not in net income.
+> - Almost every company uses this method for operating activities.
 
-- Only used for operating activities
-- Goal is to reconcile net income with cash from operations by removing non cash items from net income and including additional cash flows not in net income
-- Almost every company uses this method for operating activities
+---
 
 ## Indirect Method Preparation
+
+`Process`
 
 - Start with Net Income
 - Adjust the components of net income tied to non cash items or to investing activities
@@ -31,6 +37,8 @@ publishdate: 2020-12-04T14:02:06
   - Add/Subtract changes in asset/liablity account balance
   - Use the balance sheet equation to determine whether to add or subtract
     - **Cash + Non Cash Assets = Liabilities + Equity**
+
+---
 
 ## Examples
 

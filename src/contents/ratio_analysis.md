@@ -8,26 +8,20 @@ lastmod: 2020-12-05T23:40:06
 publishdate: 2020-12-05T23:40:06
 ---
 
-## What are ratios
+Ratios are the result we get after dividing a number by other number. eg. result = x / y. In accounting it what we divide by what is very important and it can help us to ask right questions in the right direction. `Rememeber ratios don't give answers, they just help us to ask right questions`.
 
-It is the result we get after dividing a number by other number. eg. result = x / y
+## What are uses of Ratios?
 
-In accounting it what we divide by what is very important and it can help us to ask right questions in the right direction. `Rememeber ratios don't answers, they just help us to ask right questions`
+Ratios are useful in assessing profitability, liquidity and risk. They highlight sources of competitive advantage and `red flag` potential trouble. Ratios must be compared to a benchmark, we must be able to compare same firm across time (time-series analysis) and we must also be able to compare firm to other firms or to industry (cross-sectional analysis).
 
-## What are uses of
-
-Ratios are useful in assessing profitability, liquidity and risk. They highlight sources of competitive advantage and `red flag` potential trouble
-
-Ratios must be compared to a benchmark, we must be able to compare same firm across time (time-series analysis) and we must also be able to compare firm to other firms or to industry (cross-sectional analysis)
-
-Ratios are contextual, so try to determine the underlying activity that the ratio represents to determine whether it is good or bad news
+Ratios are contextual, so try to determine the underlying activity that the ratio represents to determine whether it is good or bad news.
 
 ## Misusing ratios
 
-Standard ratios have multiple definitions since there is no GAAP for ratio definiations. So use the same definition to make valid comparisons
+Standard ratios have multiple definitions since there is no GAAP for ratio definiations, which we can use to make valid comparisons.
 
-Choosing the appropriate benchmark for comparison is important. As major changes in the firm distort time-series analysis. Differences in business strategy, capital structure or business segements distort cross-sectional analysis. Also differences in accounting methods make all comparisons difficult
+Choosing the appropriate benchmark for comparison is important. As major changes in the firm distort time-series analysis. Differences in business strategy, capital structure or business segements distort cross-sectional analysis. Also differences in accounting methods make all comparisons difficult.
 
-Ratios may be manipulated by managerial action
+Ratios may be manipulated by managerial action. So ratios can be misuesed in lot ways so its very important be careful.
 
-So rations be misuesed in lot ways so its very important be careful
+![](https://media.giphy.com/media/26gsq8oaixj3RyHOo/giphy.gif)

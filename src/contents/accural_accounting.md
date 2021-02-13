@@ -10,16 +10,14 @@ lastmod: 2020-12-04T13:53:06
 publishdate: 2020-12-04T13:53:06
 ---
 
+---
+
 ## What is Accural Accounting?
 
-The word accural means `the accumulation or increase of something over time, especially payments or benefits`
+The word accural means the accumulation or increase of something over time, especially payments or benefits. Where as the term accural method of accounting or accural accounting as we say, is the method in which `the recognition of revenues/expenses are tied to business activities and not to cash flows`.
 
-Where as the term accural method of accounting, accural accounting as we say is the method in which the recognition of revenues/expenses are tied to business activities and not to cash flows
+Revenues are recognized when the goods/services are sold and not when the cash is received. Revenue is not equal cash inflow. Expenses are recognized in the same period as revenues they helped to generate (Matching Principle). Expense is not equal cash outflow. Net income is not equal net cash flow.
 
-Revenues are recognized when the goods/services are sold and not when the cash is received. `revenues is not equal cash inflows`
+**Matching principle** is the accounting principle in which that expenses incurred during a period is recorded in the same period in which the related revenues are earned. This principle recognizes that businesses must incur expenses to earn revenues.
 
-Expenses are recognized in the same period as revenues they helped to generate (Matching Principle). `expenses is not equal cash outflows`
-
-**Matching principle** is the accounting principle that requires that the expenses incurred during a period be recorded in the same period in which the related revenues are earned. This principle recognizes that businesses must incur expenses to earn revenues.
-
-`**Net income is not equal net cash flow**`
+![](https://media.giphy.com/media/gyhOW5rsObDMvArX9c/giphy.gif)

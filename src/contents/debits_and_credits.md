@@ -10,26 +10,19 @@ lastmod: 2020-11-28T12:01:06-05:00
 publishdate: 2020-11-28T12:01:06-05:00
 ---
 
-## Misconceptions
+---
 
-1. Debits and Credits are neither `good` nor `bad`.
-2. Debits and Credits are not the same as `adding` or `subtracting`.
+**Facts**
 
-## So what are debits and credits?
+> Debits and Credits are neither `good` nor `bad`.
+>
+> Debits and Credits are not the same as `adding` or `subtracting`.
 
-Debits and Credits are words used to reflect the `duality` or `double-sided nature` of all `financial transactions`.
-
-### What is the double sided nature
-
-The double sided nature is that `for money to go to one account, it has to come from another`.
+Debits and Credits are words used to reflect the `duality` or `double-sided nature` of all `financial transactions`. The double sided nature is that `for money to go to one account, it has to come from another`.
 
 ![Debits and Credits](/debits_and_credits/img1.png)
 
-## Breaking the Equity term
-
-1. Assets are represented by Debits
-2. Liabilities are represented by Credits
-3. Equity is a tricy one
+Assets are represented by Debits. Liabilities are represented by Credits. Equity is a tricy one
 
 ![Accounting Equation](/debits_and_credits/img2.png)
 
@@ -43,7 +36,9 @@ Let's rearrange the equation.
 
 Whenever the balance sheet equation isn't balanced, take a look at all credits and debits.
 
-## Rules of Debits and Credits
+---
+
+**Rules of Debits and Credits**
 
 - Every transaction must have `atleast` one credit and `atleast` on debit
 - Debits = Credits (for all transactions)

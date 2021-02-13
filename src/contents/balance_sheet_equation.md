@@ -8,21 +8,17 @@ lastmod: 2020-11-28T09:03:06-05:00
 publishdate: 2020-11-28T09:03:06-05:00
 ---
 
-There are 3 main financial statements **balance sheet**, **income statement** and **cash flow statement**.
+---
 
-A **balance sheet** shows what a company `owns` and what it `owes` at a fixed point in time.
+There are 3 main financial statements `balance sheet`, `income statement` and `cash flow statement`. A balance sheet shows what a company owns and what it owes at a fixed point in time.
 
 ![Balance Sheet Equation](/balance_sheet_equation/img1.png)
 
-The stuff the business owns are `Assets` and the stuff the business owes are broken into 2 components namely `Liabilities` (from third parties) and `Equity`.
-
-The `accounting equation` also called the balance sheet equation is `Assets = Liabilities + Equity`
+The stuff the business owns are **Assets** and the stuff the business owes are broken into 2 components namely **Liabilities** (from third parties) and **Equity**. The `accounting equation` also called the balance sheet equation is Assets = Liabilities + Equity.
 
 ![Accounting Equation](/balance_sheet_equation/img2.png)
 
-By using the accounting equation we can also say that `the balance sheet is a snapshot of a business's assets, liabilities and equity at a point in time`.
-
-Also balance sheet equation is the foundation for the double-entry bookkeeping system since for each transaction `the total debits equal the total credits`.
+By using the accounting equation we can also say that `the balance sheet is a snapshot of a business's assets, liabilities and equity at a point in time`. Also balance sheet equation is the foundation for the double-entry bookkeeping system since for each transaction `the total debits equal the total credits`.
 
 ## Link between balance sheet and income statement
 
