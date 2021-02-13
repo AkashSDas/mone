@@ -103,15 +103,20 @@ main {
 }
 
 pre {
-  color: var(--purple);
   background: var(--card-bg);
   padding: 1rem;
   border-radius: var(--card-radius);
+
+  code {
+    color: inherit;
+  }
 }
 
 hr {
   border: none;
   border-bottom: var(--h-border);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 code {
@@ -135,6 +140,8 @@ pre {
   transition: all 300ms ease-in-out;
   border-radius: 3px;
   font-family: var(--font-code);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 
   code {
     background-color: var(--card-bg);
@@ -163,8 +170,10 @@ blockquote {
   position: relative;
   padding-left: 1em;
   border-left: var(--card-bg) 3px dashed;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 button {
