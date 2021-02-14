@@ -11,7 +11,7 @@ publishdate: 2021-20-14T13:48:06-05:00
 
 ---
 
-ROEis a measure of financial performance. `ROE = net income / shareholders equity` (both net income & shareholder's equity has to be positive). Because `shareholders' equity = company’s assets - its debt` therefore ROE is considered the `return on net assets`. ROE is considered a measure of the profitability of a corporation in relation to stockholders’ equity.
+ROE is a measure of financial performance. `ROE = net income / shareholders equity` (both net income & shareholder's equity has to be positive). Because `shareholders' equity = company’s assets - its debt` therefore ROE is considered the `return on net assets`. ROE is considered a measure of the profitability of a corporation in relation to stockholders’ equity.
 
 Whether an ROE is considered satisfactory will depend on what is normal for the industry or company peers.
 
