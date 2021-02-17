@@ -40,6 +40,6 @@ Whenever the balance sheet equation isn't balanced, take a look at all credits a
 
 **Rules of Debits and Credits**
 
-- Every transaction must have `atleast` one credit and `atleast` on debit
+- Every transaction must have `atleast` one credit and `atleast` one debit
 - Debits = Credits (for all transactions)
 - No negative numbers are allowed

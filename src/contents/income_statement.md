@@ -4,8 +4,8 @@ description: Understanding income statement, overheads, gross margin and bottom 
 tags:
   - accounting
   - income-statement
-lastmod: 2020-12-04T13:56:06
-publishdate: 2020-12-04T13:56:06
+lastmod: 2020-12-04T13:56:06-05:00
+publishdate: 2020-12-04T13:56:06-05:00
 ---
 
 ---
